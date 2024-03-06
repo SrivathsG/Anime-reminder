@@ -1,14 +1,14 @@
-<h1><center> Should we remind you? </center></h1>
+Anime Reminder for Gmail (ARG)
+# What it does
 
-<h6> Well, im sure a lot of us like to stay tuned to the new episodes of our favourite animes </h6>
-<p> Here i have written a small python script that will remind you of your favourite animes as the new episode of the anime airs. With a very simple and command line interface, 
-since, that wasnt the main motive in creation</p>
+Streamlines anime episode tracking by integrating seamlessly with your Gmail.
+Generates personalized reminders for upcoming episodes of your chosen anime.
+Includes convenient watch links directly in your inbox for effortless access.
+# Requirements
 
-This script works on the basis of scraping data from websites so, this is built entirely on python framework with modules like: <pre>Beautifulsoup 
-OS
-pandas
-requests
-smtblib
-</pre>
-<h3> To get this working just follow along with the following steps: </h3>
-
+Python 3.x (https://www.python.org/downloads/)
+beautifulsoup4 (https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+gspread (https://pypi.org/project/gspread/)
+google-api-python-client (https://github.com/googleapis/google-api-python-client)
+oauth2client (https://pypi.org/project/oauth2/)
+schedule (https://schedule.readthedocs.io/)
